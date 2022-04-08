@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 48px;
+    display:flex;
+    text-align: end;
+    margin-top: 20px;
+    margin-left: 1260px;
+}
+
+.Gmail a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);  
+    padding-left: 15px; 
+}
+.Gmail:hover{
+    text-decoration: underline;
+}
+.pic a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);  
+    padding-left: 20px; 
+}
+.pic:hover{
+    text-decoration: underline;
+}
+.app img{
+    width: 24px;
+    height: 24px;
+    padding-left: 30px;
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+    padding-left: 20px;
+    
+}
+.google{
+    text-align: center;
+}
+.google img{
+    width: 272px;
+    height: 92px;
+    margin-top:100px
+}
+.search{
+    text-align: center;
+    position: relative;
+}
+.search input{
+    width: 582px;
+    height: 44px;
+    border:1px  solid rgb(228, 222, 222);
+    border-radius: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 5px 8px 0px 44px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.search img{
+    width: 18px;
+    height: 18px;
+    margin-left: 40px;
+    position: absolute;
+    top: 42px;
+    left: 450px;  
+}
+.keyboard img{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+    position: absolute;
+    top: 305px;
+    left: 940px;  
+}
+.voice img{ 
+    width: 35px;
+    height: 20px;
+    margin-left: 40px;
+    position: absolute;
+    top: 305px;
+    left: 970px;  
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button1 input{
+    width: 137px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+}
+.baxt input{
+    width: 131px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.text1{
+    margin-top: 10px;
+    text-align: center;
+}
+.text{
+    display: inline-flex;
+    margin-top: 20px;
+}
+.text p{
+    color: #3c4043;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+.text a{
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-left: 8px;
+
+}
+.footer{
+    height: 48px;
+    background-color: #F2F2F2;
+    text-align: start;
+}
+.footer p{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: Arial, sans-serif;
+}
+.end{
+    height: 48px;
+    background-color: #F2F2F2;
+    margin-top: 1px;
+    text-align: start;
+}
+.end a{
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #70757a;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.end a:hover{
+    text-decoration: underline;
+}
+.end1{
+    display:inline-flex;
+    padding-left: 580px;
+    text-align: end;
+}
+.end1 a{
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #70757a;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.end1 a:hover{
+    text-decoration: underline;
+}
+.footer1{
+    margin-top: 192px;
+}
+@media only screen and (max-width: 650px) {
+    .header{
+        
+    }
+  
+    .google img{
+        margin-left: 200px;
+    }
+    .search input{
+        margin-left: 20px;
+    }
+    .search img{
+        margin-left: -448px;
+    }
+    .keyboard img{
+        left: 490px;
+
+    }
+    .voice img{
+        left:512px;
+    }
+    .button1 input{
+        margin-left: -847px;
+    }
+    .baxt input{
+        margin-left: -552px;
+    }
+    .end1 {
+        padding-left: 0px;
+    }
+
+}
